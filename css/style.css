@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(165, 162, 162);
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(148, 78, 78);
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+nav img{
+    width: 150px;
+  border-radius: 50px;
+  justify-content: center;
+  margin-top: 25px;
+}
