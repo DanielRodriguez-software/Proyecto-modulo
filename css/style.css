@@ -16,6 +16,78 @@ nav a{
 nav img{
     width: 150px;
   border-radius: 50px;
-  justify-content: center;
   margin-top: 25px;
+  margin-bottom: 25px;
+}
+.cards{
+    background-color: #C9B1BD;
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px #0e0101;
+}
+.card img{
+    width: 100%;
+}
+
+.card-content{
+    padding: 35px;
+
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+}
+.card-content h1{
+    text-align: center;
+    font-size: 25px;
+}
+.card h2{
+    font-size: 15px;
+    text-align: center;
+}
+.cards:hover{
+    transform: scale(1.05);
+    background-color: rgb(204, 216, 149);
+}
+.cards2{
+    background-color: #C9B1BD;
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px #0e0101;
+}
+.card2 img{
+    width: 100%;
+}
+
+.card-content2{
+    padding: 35px;
+
+}
+
+.card2{
+    display: flex;
+    justify-content: center;
+}
+.card-content2 h1{
+    text-align: center;
+    font-size: 25px;
+}
+.card2 h2{
+    font-size: 15px;
+    text-align: center;
+}
+.cards2:hover{
+    transform: scale(1.05);
+    background-color: rgb(204, 216, 149);
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(122, 110, 110);
+     margin-top: 190px;
 }
