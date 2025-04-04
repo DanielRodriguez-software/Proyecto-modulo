@@ -8,6 +8,7 @@ nav{
     border-radius: 10px;
     background-color: rgba(148, 78, 78, 0.479);
     opacity: 0.9;
+    background-color: rgb(148, 78, 78);
     
 }
 nav a{
@@ -67,6 +68,7 @@ nav a:hover{
 }
 
 .cards1{
+.cards2{
     background-color: #C9B1BD;
     margin: 20px;
     width: 300px;
@@ -80,6 +82,12 @@ nav a:hover{
 }
 
 .card-content1{
+}
+.card2 img{
+    width: 100%;
+}
+
+.card-content2{
     padding: 35px;
 
 }
@@ -119,3 +127,19 @@ footer{
 }
 
 
+.card2{
+    display: flex;
+    justify-content: center;
+}
+.card-content2 h1{
+    text-align: center;
+    font-size: 25px;
+}
+.card2 h2{
+    font-size: 15px;
+    text-align: center;
+}
+.cards2:hover{
+    transform: scale(1.05);
+    background-color: rgb(204, 216, 149);
+}
