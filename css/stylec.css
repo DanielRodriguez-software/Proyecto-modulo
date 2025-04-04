@@ -21,13 +21,47 @@ nav img{
   margin-top: 25px;
   margin-bottom: 25px;
 }
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
 .cards{
     background-color: #C9B1BD;
-    margin: 20px;
-    width: 300px;
+    margin: 100px;
+    width: 500px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 5px 10px #0e0101;
+    padding: 70px;
 
 }
 .card img{
@@ -58,42 +92,12 @@ nav img{
     background-color: rgb(204, 216, 149);
 }
 
-.cards1{
-    background-color: #C9B1BD;
-    margin: 20px;
-    width: 300px;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0px 5px 10px #0e0101;
 
-}
-.card1 img{
-    width: 100%;
-}
 
-.card-content1{
-    padding: 35px;
 
-}
 
-.card1{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.card-content1 h1{
-    text-align: center;
-    font-size: 25px;
-}
-.card1 h2{
-    font-size: 15px;
-    text-align: center;
-}
-.cards:hover{
-    transform: scale(1.05);
-    background-color: rgb(204, 216, 149);
-}
+
+
 
 footer{
     text-align: center;
@@ -102,5 +106,6 @@ footer{
      margin-top: 190px;
      border-radius: 10px;
 }
-
-
+form{
+    flex-wrap: wrap;
+}
