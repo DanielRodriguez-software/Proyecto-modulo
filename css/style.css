@@ -1,17 +1,28 @@
 body{
     background-color: rgb(165, 162, 162);
+    margin: 0;
+    padding: 0;
 }
 nav{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(148, 78, 78);
-    
+    background-color: rgba(148, 78, 78, 0.479);
+    border-radius: 10px;
+    opacity: 0.9;
 }
 nav a{
     text-decoration: none;
     color: white;
     font-size: 19px;
+}
+nav a:hover{
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border-radius: 5px;
+    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.37);
+    border: 1 px solid rgba(0, 0, 0, 0.37);
+    text-decoration: underline;
 }
 nav img{
     width: 150px;
@@ -39,6 +50,8 @@ nav img{
 .card{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .card-content h1{
     text-align: center;
@@ -52,6 +65,27 @@ nav img{
     transform: scale(1.05);
     background-color: rgb(204, 216, 149);
 }
+footer{
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(122, 110, 110);
+     margin-top: 190px;
+     gap: 10px;
+     
+}
+
+@media (width<= 480px){
+    nav a{
+        flex-direction: column;
+    }
+   
+}
+.producto{
+    text-align: center;
+    background-color: rgba(148, 78, 78, 0.479);
+    border-radius: 10px;
+}
 .cards2{
     background-color: #C9B1BD;
     margin: 20px;
@@ -59,19 +93,22 @@ nav img{
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 5px 10px #0e0101;
+   padding: 40px;
 }
 .card2 img{
     width: 100%;
 }
 
 .card-content2{
-    padding: 35px;
+    padding: 0px;
 
 }
 
 .card2{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .card-content2 h1{
     text-align: center;
@@ -85,9 +122,11 @@ nav img{
     transform: scale(1.05);
     background-color: rgb(204, 216, 149);
 }
-footer{
-    text-align: center;
-    padding: 20px;
-    background-color: rgb(122, 110, 110);
-     margin-top: 190px;
+button a{
+    text-decoration: none;
+    color: #0e0101;
+
+}
+button{
+    background-color: rgb(209, 191, 168);
 }
